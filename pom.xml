@@ -6,7 +6,7 @@
 	<groupId>com.sinosoft</groupId>
 	<artifactId>jsphone</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>Js Phone client </name>
 	<description>实现 Aspect、华为 等多个平台接口</description>
