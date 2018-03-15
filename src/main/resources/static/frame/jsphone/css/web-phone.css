@@ -1,0 +1,161 @@
+.navbar-phone {
+    background-color: #00A67F;
+    border-color: #00A67F;
+}
+
+.container {
+    padding-right: 15px;
+    /*/padding-left: 0;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 1px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}
+
+a {
+    display:inline-block;
+    vertical-align:middle;
+    font-size: 16px;
+}
+
+li{
+    width: 62px;
+    height: 80px;
+}
+
+a:link,
+a:visited     {
+    color:#FFF;
+}
+
+a:hover,
+a:active    {
+    color:#FFF;
+}
+
+.content {
+    height: 56px;
+    line-height: 50px;
+    border:2px solid #FFFFFF;
+    border-radius:25px;
+    margin-top:12px;
+    background-color: #FFFFFF;
+    width: 290px;
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 32px;
+}
+
+.max {
+    width: 515px;
+}
+
+.content-span{
+    color: #00A67F;
+}
+
+.active{
+    background-color: #149170;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #65bfa7;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 7px;
+    height: 80px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.navbar-nav>li>a>span{
+    position: relative;
+    left: 2px;
+    top: 30px;
+}
+
+.busy{
+    background: url('../img/busy.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.consult{
+    background: url('../img/consult.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.answer{
+    background: url('../img/answer.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.logoff{
+    background: url('../img/logoff.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.hold{
+    background: url('../img/hold.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.unHold{
+    background: url('../img/hold.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.conference{
+    background: url('../img/conference.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.dial{
+    background: url('../img/dial.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.transfer{
+    background: url('../img/transfer.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.idle{
+    background: url('../img/idle.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.rest{
+    background: url('../img/rest.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.monitor{
+    background: url('../img/monitor.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.acw{
+    background: url('../img/acw.png') no-repeat 50% 20%;
+    cursor:hand;
+}
+
+.hangup{
+    background: url('../img/hangup.png') no-repeat 50% 20%;
+    cursor:hand;
+}

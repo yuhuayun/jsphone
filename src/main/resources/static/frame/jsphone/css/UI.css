@@ -1,0 +1,153 @@
+div{
+	font-size:12px;
+}
+.jbutton{
+	width:32px; height:46px;font-size:12px;vertical-align:bottom;text-align:center;
+}
+.answer {
+	background: url('../img/UI.png') no-repeat;background-position:0px 0px;
+	cursor:hand;
+}
+.answerGray {
+	background: url('../img/UIg.png') no-repeat;background-position:0px 0px;
+	cursor:default;
+}
+.reject {
+	
+}
+.rejectGray{
+	
+}
+.wrapup {
+	background: url('../img/UI0.bmp') no-repeat;background-position:-224px 0px;
+	cursor:hand;
+}
+.wrapupGray{
+	background: url('../img/UI0g.bmp') no-repeat;background-position:-224px 0px;
+	cursor:default;
+}
+.dial {
+	background: url('../img/UI0.bmp') no-repeat;background-position:-192px 0px;
+	cursor:hand;
+}
+.dialGray {
+	background: url('../img/UI0g.bmp') no-repeat;background-position:-192px 0px;
+	cursor:default;
+}
+.hold {
+	background: url('../img/UI0.bmp') no-repeat;background-position:-256px 0px;
+	cursor:hand;
+}
+.holdGray {
+	background: url('../img/UI0g.bmp') no-repeat;background-position:-256px 0px;
+	cursor:default;
+}
+.consult {
+	background: url('../img/UI0.bmp') no-repeat;background-position:-288px 0px;
+	cursor:hand;
+}
+.consultGray {
+	background: url('../img/UI0g.bmp') no-repeat;background-position:-288px 0px;
+	cursor:default;
+}
+.transfer {
+	background: url('../img/UI.png') no-repeat;background-position:-128px 0px;
+	cursor:hand;
+}
+.transferGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-128px 0px;
+	cursor:default;
+}
+.conference {
+	background: url('../img/UI.png') no-repeat;background-position:-160px 0px;
+	cursor:hand;
+}
+.conferenceGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-160px 0px;
+	cursor:default;
+}
+.rest {
+	background: url('../img/UI.png') no-repeat;background-position:-192px 0px;
+	cursor:hand;
+}
+.restGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-192px 0px;
+	cursor:default;
+}
+.busy {
+	background: url('../img/UI.png') no-repeat;background-position:-224px 0px;
+	cursor:hand;
+}
+.busyGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-224px 0px;
+	cursor:default;
+}
+.idle {
+	background: url('../img/UI.png') no-repeat;background-position:-256px 0px;
+	cursor:hand;
+}
+.idleGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-256px 0px;
+	cursor:default;
+}
+.acw {
+	background: url('../img/UI.png') no-repeat;background-position:-288px 0px;
+	cursor:hand;
+}
+.acwGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-288px 0px;
+	cursor:default;
+}
+.monitor {
+	background: url('../img/UI.png') no-repeat;background-position:-320px 0px;
+	cursor:hand;
+}
+.monitorGray {
+	background: url('../img/UIg.png') no-repeat;background-position:-320px 0px;
+	cursor:default;
+}
+.phonediv{
+	font-size:12px;
+}
+#statusImg{
+	width:14px;background: url('../img/lights_gray.gif') no-repeat;background-position:0px 1px;
+}
+#statusName{
+	width:30px;
+}
+/**- 示忙原因弹出框 -**/
+.pop-box {  
+    z-index: 9999;position: absolute;background: #FFF;border:solid 1px #6e8bde;  
+}
+.pop-box-title {  
+    cursor:default;height: 17px;font-size: 12px;text-align: center;padding: 4px;
+    background: url("../img/winTitleBg.jpg") repeat-x 0 0;  
+}
+.pop-box-body {  
+    clear: both;
+}
+.notReadyItem{
+	cursor:hand;height:16px; padding: 2px;font-size:12px;
+}
+/**- 外拔号弹出框 -**/
+.historyDial{
+	border-collapse: collapse;border:1px solid #6e8bde;font-size:12px;
+}
+.historyDial tr td{
+	font-size:12px;height:14px;border:1px dotted #6e8bde;text-align:center;
+}
+.numTd{
+	 border:0px solid red;vertical-align:top;text-align:center;
+}
+.numBtn{ /**-外拔号按钮-**/
+	width:30px;height:29px;margin:3px;
+}
+.bignumBtn{
+	height:29px;margin:3px;
+}
+#backspace{
+	width:66px;padding:1px;font-size:9px;
+}
+#dialPhoneNum{
+	text-align:right;
+}
